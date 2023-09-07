@@ -1,2 +1,8 @@
 #!/bin/bash
-gcc -o cisfun -xc - <<< && ./cisfun
+#include <stdio.h>
+
+int main() {
+    puts("Programming is like building a multilingual puzzle");
+    return 0;
+}
+
