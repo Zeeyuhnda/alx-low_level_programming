@@ -7,6 +7,9 @@
  */
 int main(void)
 {
+	int i = 0;
+	char c;
+
     print_alphabet();
     return (0);
 }
