@@ -6,7 +6,7 @@
  * Return: encoded string `s`
  */
 
-char *leet(char *)
+char *leet(char *s)
 {
 	int i;
 
