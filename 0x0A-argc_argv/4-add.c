@@ -1,8 +1,7 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - ad 2 positive num, print result
+ * main - add 2 positive num, print result
  * @argc: argument count
  * @argv: argument vector, array of strings
  * Description: if no num passed, print 0
@@ -18,7 +17,7 @@ int main(int argc, char *argv[])
 
 	total = 0;
 	if (argc > 1)
-	{ 
+	{
 		for (i = 1; argv[i]; i++)
 		{
 			num = strtol(argv[i], &p, 10);
