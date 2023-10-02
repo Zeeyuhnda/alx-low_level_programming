@@ -40,6 +40,6 @@ char *argstostr(int ac, char **av)
 		*a = '\n';
 		a++;
 	}
-	
+
 	return (retp);
 }
