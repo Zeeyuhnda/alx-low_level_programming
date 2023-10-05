@@ -9,10 +9,8 @@ void *_calloc(unsigned int nmemb, unsigned int size);
 int *array_range(int min, int max);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 int _strlen(char *s);
-void _prntstr(char *s);
-long int numstrchk(char *s);
-void *_calloc_buffer(long int num, long int size);
-char *trimzero(char *a);
-int main(int ac, char **av);
+int is_digit(char *s);
+void errors(void);
+int main(int argc, char *argv[]);
 
 #endif
