@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * get_op - select correct operation funtion asked by user
+ * get_op_func - select correct operation funtion asked by user
  * @s: operator argument
  * Return: function pointer to operator given
  */
