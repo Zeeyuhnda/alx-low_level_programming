@@ -7,7 +7,7 @@
  * @index: index of nth node
  * Return: nth node
  */
-dlistint_t *get_dnodeint_at_index(dlist_t *heaad, unsigned int index)
+dlistint_t *get_dnodeint_at_index(dlist_t *head, unsigned int index)
 {
 	unsigned int i;
 

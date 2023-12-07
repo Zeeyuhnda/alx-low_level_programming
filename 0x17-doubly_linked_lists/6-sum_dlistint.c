@@ -23,6 +23,6 @@ int sum_dlistint(dlistint_t *head)
 			heaad = heaad->next;
 		}
 	}
-	
+
 	return (sum);
 }
